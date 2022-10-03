@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/actext"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:text="Lets Register Account"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/fname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/edittext_shape"
+            android:hint="First Name"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:minLines="1"
+            android:paddingStart="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#262627"
+            android:textColorHint="#808080"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/actext"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/lname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/edittext_shape"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:minLines="1"
+            android:paddingStart="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#262627"
+            android:textColorHint="#808080"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fname"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/edittext_shape"
+            android:hint="Email"
+            android:inputType="text"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:minLines="1"
+            android:paddingStart="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#262627"
+            android:textColorHint="#808080"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lname"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/passtxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/edittext_shape"
+            android:hint="Password"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:minLines="1"
+            android:paddingStart="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#262627"
+            android:textColorHint="#808080"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etext" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="13dp"
+            android:id="@+id/regbtn"
+            android:background="@drawable/button_shape"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passtxt" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

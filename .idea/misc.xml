@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/drawable/botton_shape.xml" value="0.238" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/drawable/button_shape.xml" value="0.1845" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/drawable/buttonshape.xml" value="0.238" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/drawable/edittext_shape.xml" value="0.1845" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/activity_navigation.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/activity_otp.xml" value="0.340625" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/activity_register.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/activity_welcome.xml" value="0.340625" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/drawer_header.xml" value="0.3536458333333333" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/fragment_brands.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/fragment_coupons.xml" value="0.17604166666666668" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/fragment_home.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/fragment_homr.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/fragment_offer.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/style.xml" value="0.3536458333333333" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/layout/toolbar.xml" value="0.3536458333333333" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/menu/erm_menu.xml" value="0.3546875" />
+        <entry key="..\:/AndroidStudioProjects/ErnProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.242" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
